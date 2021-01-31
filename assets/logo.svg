@@ -23,7 +23,7 @@
      id="g10"><path
        id="path12"
        style="fill:#efefef;fill-opacity:0;fill-rule:nonzero;stroke:none"
-       d="M 0,0 H 0 V 0 H 0 Z" /><g
+       d="M 0,0 H 1000 V 1000 H 0 Z" /><g
        transform="translate(588.3604,455.8008)"
        id="g14"><path
          id="path16"
