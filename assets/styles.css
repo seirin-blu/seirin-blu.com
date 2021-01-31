@@ -5,7 +5,7 @@ body{
     --link-color:#261010
         
     /* Basic Styling*/
-    font-family: Helvetica
+    font-family: Helvetica;
     background-color: var(--primary-color);
 }
 
