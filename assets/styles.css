@@ -1,0 +1,18 @@
+body{
+    /* Colors */
+    --primary-color:#b24747;
+    --secondary-color:#131313;
+    --link-color:#261010
+        
+    /* Basic Styling*/
+    font-family: Helvetica
+    background-color: var(--primary-color);
+}
+
+/* Header Style */
+.header{
+    background-color: var(--primary-color);
+    color: var(--secondary-color);
+    width: 100%;
+    padding: 75px 0 10px 0;
+}
