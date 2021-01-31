@@ -12,14 +12,24 @@ body{
     padding: 0;
 }
 
-/* Header Style */
-.header{
-    background-color: var(--header-color);
-    color: var(--secondary-color);
-    width: 100%;
+/* Title Style */
+.title{
     text-align: center;
     padding: 20px 0 5px 0;
     font-size: 30px;
+    background-color: var(--header-color);
+    color: var(--secondary-color);
+    width: 100%;
+}
+
+/* Header Style */
+.header {
+    text-align:left;
+    padding-left: 10px 0 0 0;
+    font-size: 10px;
+    background-color: var(--header-color);
+    color: var(--secondary-color);
+    width: 100%;
 }
 
 /* Center Style*/
