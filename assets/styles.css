@@ -16,3 +16,11 @@ body{
     width: 100%;
     padding: 75px 0 10px 0;
 }
+
+/* Center Style*/
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
