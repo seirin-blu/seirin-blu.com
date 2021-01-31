@@ -11,7 +11,7 @@ body{
 
 /* Header Style */
 .header{
-    background-color: var(--primary-color);
+    background-color: var(--secondary-color);
     color: var(--primary-color);
     width: 100%;
     padding: 75px 0 10px 0;
