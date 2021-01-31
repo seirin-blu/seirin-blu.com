@@ -3,11 +3,13 @@ body{
     --primary-color:#131313;
     --secondary-color:#b24747;
     --link-color:#261010;
-    --header-color:#131313;
+    --header-color:#000000;
         
     /* Basic Styling*/
     font-family: Helvetica, -apple-system;
     background-color: var(--primary-color);
+    margin: 0;
+    padding: 0;
 }
 
 /* Header Style */
