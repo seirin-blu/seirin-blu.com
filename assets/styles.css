@@ -3,6 +3,7 @@ body{
     --primary-color:#131313;
     --secondary-color:#b24747;
     --link-color:#261010;
+    --header-color:#333333;
         
     /* Basic Styling*/
     font-family: Helvetica, -apple-system;
@@ -11,7 +12,7 @@ body{
 
 /* Header Style */
 .header{
-    background-color: var(--primary-color);
+    background-color: var(--header-color);
     color: var(--secondary-color);
     width: 100%;
     padding: 20px 0 5px 0;
