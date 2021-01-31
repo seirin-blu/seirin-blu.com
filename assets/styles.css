@@ -29,7 +29,7 @@ body{
 
 .logo{
   display:block;
-  margin: 0 auto;
+  margin: -50 auto -60 auto;
   width: 15%;
   /*margin-top: -50px;
   margin-bottom: -60px; */
