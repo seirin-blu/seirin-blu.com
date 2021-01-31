@@ -3,7 +3,7 @@ body{
     --primary-color:#131313;
     --secondary-color:#b24747;
     --link-color:#261010;
-    --header-color:#333333;
+    --header-color:#131313;
         
     /* Basic Styling*/
     font-family: Helvetica, -apple-system;
@@ -15,7 +15,6 @@ body{
     background-color: var(--header-color);
     color: var(--secondary-color);
     width: 100%;
-    padding: 20px 0 5px 0;
     text-align: center;
 }
 
@@ -28,6 +27,7 @@ body{
   text-align: center;
 }
 
+/* Logo Style Properties*/
 .logo{
   display:block;
   width: 15%;
