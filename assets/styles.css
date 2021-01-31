@@ -29,8 +29,9 @@ body{
 
 .logo{
   display:block;
-  margin: -50 auto -60 auto;
   width: 15%;
-  /*margin-top: -50px;
-  margin-bottom: -60px; */
+  margin-top: -50px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: -60px;
 }
