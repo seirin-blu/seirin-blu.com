@@ -54,11 +54,19 @@ body{
 
 /* Link Styles*/
 
-a{
-  text-decoration: none;
+a {
   color: var(--secondary-color);
+  text-decoration: none;
+  background-color: transparent;
 }
-
-a:hover{
+a:hover {
   color: var(--link-color);
+}
+a:not([href]):not([class]) {
+  color: inherit;
+  text-decoration: none;
+}
+a:not([href]):not([class]):hover {
+  color: inherit;
+  text-decoration: none;
 }
