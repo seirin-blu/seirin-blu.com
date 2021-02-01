@@ -55,6 +55,7 @@ body{
   text-align: center;
   z-index: 0;
   position: relative;
+  pointer-events: none;
 }
 
 /* Link Styles*/
