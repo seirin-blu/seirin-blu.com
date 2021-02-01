@@ -6,7 +6,7 @@ body{
     --header-color:#000000;
         
     /* Basic Styling*/
-    font-family: Helvetica, -apple-system;
+    font-family: Arial, -apple-system;
     background-color: var(--primary-color);
     margin: 0;
     padding: 0;
@@ -15,7 +15,7 @@ body{
 /* Title Style */
 .title{
     text-align: center;
-    padding: 20px 0 5px 0;
+    padding: 0px 0 0px 0;
     font-size: 30px;
     background-color: var(--header-color);
     color: var(--secondary-color);
@@ -45,9 +45,20 @@ body{
 .logo{
   display:block;
   width: 30%;
-  margin-top: -80px;
+  margin-top: -70px;
   margin-left: auto;
   margin-right: auto;
-  margin-bottom: -120px;
+  margin-bottom: -100px;
   text-align: center;
+}
+
+/* Link Styles*/
+
+a{
+  text-decoration: none;
+  color: var(--secondary-color);
+}
+
+a:hover{
+  color: var(--link-color);
 }
