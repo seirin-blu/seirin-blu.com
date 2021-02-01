@@ -30,6 +30,7 @@ body{
     background-color: var(--header-color);
     color: var(--secondary-color);
     width: 100%;
+    margin-bottom: 10px;
 }
 
 /* Center Style*/
