@@ -1,9 +1,10 @@
 body{
     /* Colors */
-    --primary-color:#efefef;
+    --primary-color:#131313;
     --secondary-color:#b24747;
     --link-color:#261010;
-    --header-color:#ffffff;
+    --header-color:#000000;
+    
         
     /* Basic Styling*/
     font-family: Arial, -apple-system;
@@ -14,13 +15,13 @@ body{
     display: block;
 }
 
-@media (prefers-color-scheme: dark) { 
+@media (prefers-color-scheme: light) { 
 body{
     /* Colors */
-    --primary-color:#131313;
+    --primary-color:#efefef;
     --secondary-color:#b24747;
-    --link-color:#261010;
-    --header-color:#000000;
+    --link-color:#e6bebe;
+    --header-color:#ffffff;
 }
 }
 
@@ -35,6 +36,9 @@ body{
     margin-bottom: -30px;
 }
 
+/* Darkmode-Lightmode Toggle */
+
+
 /* Header Style */
 .header {
     text-align:left;
@@ -44,6 +48,14 @@ body{
     color: var(--secondary-color);
     width: 100%;
     margin-bottom: 10px;
+    z-index: 10;
+    position: relative;
+}
+
+.link-list {
+text-align:left;
+    font-size: 10px;
+    color: var(--secondary-color);
     z-index: 10;
     position: relative;
 }
