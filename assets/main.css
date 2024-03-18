@@ -1,0 +1,99 @@
+body{
+    /* Colors */
+    --primary-color:#efefef;
+    --secondary-color:#b24747;
+    --tertiary-color: #fcc239;
+    --link-color:#261010;
+    --header-color:#000000;
+    --primary-color-darker: #cccccc;
+    --text-color: #333333;
+    
+    /* Basic Styling*/
+    font-family: Arial, -apple-system;
+    background-color: var(--primary-color);
+    margin: 0;
+    padding: 0;
+    color: var(--text-color);
+    display: block;
+}
+
+@font-face {
+    font-family: "Cunia";
+    src: url("cunia.ttf") format("ttf"),
+         url("cunia.woff") format("woff");
+    font-weight: normal;
+    font-style: normal;
+}
+
+.main {
+    display: flex;
+    flex-direction: row;
+}
+
+
+
+.nav-column {
+    position: sticky;
+    top: 0;
+    display: inline-block;
+    background-color: var(--primary-color);
+    color: #b24747;
+    width: 500px; /*This doesnt do anything rn for some reason*/
+    height: 100%; /*This also doesnt do anything rn for some reason*/
+    font-size: 2em;
+    line-height: 1.5em;
+    list-style: none;
+    padding-left: 0;
+    margin-left: 0;
+    font-family: "Cunia";
+    z-index: 10;
+
+    ul {
+        padding: 0;
+        margin: 0 0 0 .5em;
+        height: 100%;
+    }
+
+    ul li {
+        list-style-type: none;
+        padding: 0;
+        margin: 0;
+    }
+
+    a:hover {
+        color: var(--tertiary-color);
+    }
+
+    a:visited {
+        color: var(--secondary-color);
+    }
+
+}
+
+a {
+    text-decoration: none;
+    color: var(--secondary-color);
+}
+
+.nav-column .logo {
+    width: 300px; /* This seems to be controlling the width of the side bar atm*/
+}
+
+.content-wrapper {
+    display: inline-block;
+    background-color: var(--primary-color);
+    position: static;
+    z-index: 9;
+    height: 100%;
+    width: auto;
+    padding: 0 1em 0 1em;
+    overflow: hidden;
+}
+
+footer {
+    text-align: center;
+    color: var(--secondary-color);
+    background-color: var(--primary-color-darker);
+    z-index: 8;
+    padding: 1em 0 1em 0;
+}
